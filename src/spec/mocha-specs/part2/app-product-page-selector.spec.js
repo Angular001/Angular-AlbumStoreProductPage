@@ -14,7 +14,7 @@ describe("Product Page Component HTML", () => {
     );
 
     assert(
-      appProductComponent.length > 0,
+      appProductComponent.length <= 0,
       "We couldn't find the ProductPageComponent - are you sure you added the right selector to the AppComponent?"
     );
   });
